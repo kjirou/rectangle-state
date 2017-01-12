@@ -22,14 +22,14 @@ console.log(
 );  // -> { top: 1, right: 12, bottom: 2, left: 11 }
 
 console.log(
-  createRectangleState({ x: 11, y: 1, width: 1, left: 1 })
+  createRectangleState({ x: 11, y: 1, width: 1, height: 1 })
 );  // -> { top: 1, right: 12, bottom: 2, left: 11 }
 
 console.log(
   toXYWidthHeight(
     createRectangleState({ top: 1, right: 12, bottom: 2, left: 11 })
   )
-);  // -> { x: 11, y: 1, width: 1, left: 1 }
+);  // -> { x: 11, y: 1, width: 1, height: 1 }
 
 // Error - The `x` is mixed.
 //createRectangleState({ top: 1, right: 12, bottom: 2, left: 11, x: 1 });
