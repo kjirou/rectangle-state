@@ -1,6 +1,6 @@
 {
   "name": "rectangle-state",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Generate a state meaning a rectangle as a plane object",
   "main": "index.js",
   "scripts": {
